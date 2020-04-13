@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/still.css" type="text/css" />
+        <title>Depre HTML</title>
+    </head>
+
+<body>
+    <header>
+        <h1><img src="imagini/180-1806134_thumbs-up-smiley-face-emoji-happy-smiley-face.png" width="100" height="80">Programare WEB</h1>
+        
+    </header>
+    <hr>
+    <nav>
+        <a href="index.html">Acasa</a> &nbsp; 
+        <a href="inregistreaza.html">Inregistreaza</a>&nbsp;
+        <a href="video.html">Video</a>&nbsp;
+        <a href="despre.html">Despre</a>&nbsp;
+    </nav>
+    <hr>
+    <main>
+        <h1>Programare web</h1>
+        <h2>Limbaj HTML</h2>    
+        <p><b>HTML (HyperText Makeup Language)</b> este un <i> limbaj de marcare</i> utliazat pentru a crea pagini web.</p>
+        <p>Un exemplu de cod gtml il gasiti in imaginea urmatoare care se afla la adresa 
+            <a href="https://commons.wikimedia.org/wiki/File:HTML_logo.png">https://commons.wikimedia.org/wiki/File:HTML_logo.png .</a>
+        <br>Imaginea are atributul <small>height</small> de valoarea 147. 
+        <br>
+        <img src="HTML_logo.png"/>  
+     </p>
+        <p>
+            <b><i>Tag-urile</i></b> html cele mai utilizate in realizarea tabelelor sunt:
+            <br>
+            <table border="1">
+            <tr>
+                <td><code>table</code> </td>
+                <td><code>defineste un tabel</code></td>
+            </tr>
+            <tr>
+                    <td><code>tr<code></td>
+                    <td><code>un rand intr-un tabel</code></td>
+        
+                </tr>
+                <tr>
+                        <td><code>tr</code></td>
+                        <td><code>o celula intr-un tabel</code></td>
+            
+                    </tr>
+            </table>
+            <br>
+            <b>Observatie:</b> Pentru a pune un contur unui tabel se poate (dar nu se recomanda) sa se puna atributul <code>border="1"</code>
+            <br>
+            La validare va da eroare: <i>The border attribute on the table element is obsolute</i>
+        </p>
+        <p>
+            Formularele se pot crea cu ajutorul tag-ului <small>form</small> care poate contine tag-urile:<small>input, textarea, label, select, option, button.</small>
+            <br>
+            Pentru mai multe detalii consulati cursul sau tutorialul <a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a> de la adresa <a href="https://www.w3schools.com/html/html_forms.asp">https://www.w3schools.com/html/html_forms.asp</a>
+    
+    
+        </p>
+    
+        <p>
+            Un exemplu de formular este urmatorul:
+            <form>
+                    <label for="nume">Nume: </label>
+                    <input type="text" id="nume" name="nume" value="nume"><br>
+                    <label for="prenume">Prenume: </label>
+                    <input type="text" id="prenume" name="prenume" value="prenume"><br>
+                    <label for="parola">Parola: </label>
+                    <input type="password" id="parola" name="parola" value="abc"><br>
+                    <label for="culaore">Culoarea preferata</label>
+                        <select id="culoare" name="culoare">
+                            <option value="rosu">rosu</option>
+                            <option value="alb">alb</option>
+                            <option value="verde">verde</option>
+                            
+                        </select>
+                     <br>
+                    <label for="descriere">Descriere</label>
+                    <textarea></textarea><br>
+                    
+                    </form>
+    

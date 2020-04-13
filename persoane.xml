@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa> 
+         <strada>Stejar</strada>
+         <numar>12</numar>
+         <localitate>Iasi</localitate>
+         <judet>Iasi</judet>
+         <tara>Romania</tara>
+        </adresa>
+        <ocupatie>Inginer</ocupatie>
+        <studii>Facultate</studii>
+        
+    </persoana>
+
+    <persoana id="2">
+        <nume>Asaftei</nume>
+        <prenume>Alexandra</prenume>
+        <varsta>24</varsta>
+        <adresa> 
+         <strada>Sf Maria</strada>
+         <numar>13</numar>
+         <localitate>Iasi</localitate>
+         <judet>Iasi</judet>
+         <tara>Romania</tara>
+        </adresa>
+         <ocupatie>Medic</ocupatie>
+        <studii>Facultate</studii>
+        
+    </persoana>
+    <persoana id="3">
+        <nume>Ilie</nume>
+        <prenume>Diana</prenume>
+        <varsta>24</varsta>
+        <adresa> 
+         <strada>Strada Ion Creanga</strada>
+         <numar>13</numar>
+         <localitate>Iasi</localitate>
+         <judet>Iasi</judet>
+         <tara>Romania</tara>
+        </adresa>
+         <ocupatie>Psiholog</ocupatie>
+        <studii>Facultate</studii>
+        
+    </persoana>
+</persoane>

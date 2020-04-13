@@ -1,0 +1,49 @@
+html, body {
+    background-image: url("D:\an II cursuri\pw- lab\proiect lab dupa petro\imagini\flori.jpg");
+    height: auto;
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    color:white;
+    opacity: 1px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+  }
+h1{
+    text-align: center;
+}
+nav {
+    background-color:rgb(98, 50, 6);
+   text-align: center;
+   padding: 10px;
+   border-color: rgb(194, 90, 90);
+   border-style: solid;
+
+
+}
+nav a{
+  color: white;
+  text-align:  center;
+  padding: 8px 16px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  
+  
+ 
+}
+nav a:hover {
+    background-color: #111;
+}
+
+footer{
+    text-align: center;
+}
+main{
+    text-align: left;
+    border-color: black;
+   border-style: solid;
+   padding: 10px;
+   height: auto;
+   background-color: rgb(206, 196, 62);
+
+}
